@@ -9,7 +9,8 @@
     "lint": "next lint",
     "format": "prettier --write --ignore-unknown --config .prettierrc ./src",
     "format:check": "prettier --check --ignore-unknown --config .prettierrc ./src",
-    "prepare": "husky"
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "next": "14.2.5",
@@ -17,6 +18,8 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
