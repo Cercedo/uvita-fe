@@ -1,4 +1,4 @@
-# root-next-template
+# 🎲 root-next-template
 
 A base template to build Next.js application.
 
