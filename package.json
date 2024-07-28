@@ -10,6 +10,7 @@
     "format": "prettier --write --ignore-unknown --config .prettierrc ./src",
     "format:check": "prettier --check --ignore-unknown --config .prettierrc ./src",
     "prepare": "husky",
+    "precommit": "lint-staged",
     "commitlint": "commitlint --edit"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "eslint-config-next": "14.2.5",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.1.3",
+    "lint-staged": "^15.2.7",
     "postcss": "^8",
     "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1",
