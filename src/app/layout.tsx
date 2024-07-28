@@ -1,3 +1,4 @@
+import PrelineScript from '@/components/PrelineScript';
 import { inter } from '@/utils/fonts';
 
 import type { Metadata } from 'next';
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <PrelineScript />
     </html>
   );
 }
