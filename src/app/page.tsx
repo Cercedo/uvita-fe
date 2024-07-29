@@ -5,10 +5,10 @@ export default function Home() {
     <>
       <main
         id="content"
-        className="relative px-4 sm:px-6 lg:px-8 flex flex-col justify-center sm:items-center mx-auto size-full -bg-neutral-900 h-screen"
+        className="relative px-4 sm:px-6 lg:px-8 flex flex-col justify-center sm:items-center mx-auto size-full h-screen"
       >
         <div className="text-center py-8 px-4 sm:px-6 lg:px-8">
-          <LogoIcon className="w-16 sm:w-24 h-auto mx-auto mb-4 sm:mb-8 text-indigo-600" />
+          <LogoIcon className="w-16 sm:w-24 h-auto mx-auto mb-4 sm:mb-8 text-indigo-500" />
           <h1 className="text-2xl  sm:text-4xl">
             Let&apos;s get started with{' '}
           </h1>
