@@ -85,7 +85,9 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
         </nav>
       </header>
       <div className="w-full bg-gray-50 dark:bg-neutral-900">
-        <div className="p-4 sm:p-6 space-y-4 sm:space-y-6">{children}</div>
+        <div className="p-4 sm:p-6 space-y-4 sm:space-y-6 container mx-auto">
+          {children}
+        </div>
       </div>
     </div>
   );
