@@ -1,12 +1,10 @@
 import React from 'react';
 
-interface LogoIconProps {
+interface LeftArrowIconProps {
   className?: string;
 }
 
-const LeftArrowIcon: React.FC<LogoIconProps> = ({
-  className,
-}: LogoIconProps) => {
+const LeftArrowIcon: React.FC<LeftArrowIconProps> = ({ className }) => {
   return (
     <svg
       className={className}
@@ -24,4 +22,5 @@ const LeftArrowIcon: React.FC<LogoIconProps> = ({
     </svg>
   );
 };
+
 export default LeftArrowIcon;

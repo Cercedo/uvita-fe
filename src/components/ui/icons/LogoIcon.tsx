@@ -4,7 +4,7 @@ interface LogoIconProps {
   className?: string;
 }
 
-const LogoIcon: React.FC<LogoIconProps> = ({ className }: LogoIconProps) => {
+const LogoIcon: React.FC<LogoIconProps> = ({ className }) => {
   return (
     <svg
       className={className}
@@ -104,4 +104,5 @@ l-10 -25 0 27 c-1 19 10 35 36 57 49 40 55 39 16 -1z m-620 -136 c26 -19 46
     </svg>
   );
 };
+
 export default LogoIcon;
