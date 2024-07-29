@@ -1,13 +1,11 @@
 import React from 'react';
 
-import { PatientEntity } from '../types';
+import listPatient from '../api/listPatient';
 import getPatientFullName from '../utils/getPatientFullName';
 
-interface PatientEntityProps {
-  patients: PatientEntity[];
-}
+const PatientList: React.FC<{}> = async () => {
+  const patients = await listPatient();
 
-const PatientList: React.FC<PatientEntityProps> = ({ patients }) => {
   return (
     <ul>
       {patients.map((patient) => (
