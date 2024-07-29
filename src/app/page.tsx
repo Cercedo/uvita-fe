@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { LeftArrowIcon, LogoIcon } from '@/components/ui/icons';
 
 export default function Home() {
@@ -19,13 +21,13 @@ export default function Home() {
           </h2>
           <div className="mt-8 space-y-4">
             <div className="grid">
-              <button
-                type="button"
+              <Link
+                href="/dashboard"
                 className="sm:p-4 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-neutral-100 hover:bg-neutral-200 focus:bg-neutral-200 dark:bg-white/10 dark:hover:bg-white/20 focus:outline-none dark:focus:bg-white/20 disabled:opacity-50 disabled:pointer-events-none"
               >
                 Start
                 <LeftArrowIcon className="shrink-0 size-4" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
