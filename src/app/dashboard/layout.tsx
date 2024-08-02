@@ -1,8 +1,11 @@
-'use client';
-
+import { Metadata } from 'next';
 import React from 'react';
 
 import { Navbar } from '@/components/ui/dashboard';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
